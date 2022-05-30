@@ -1,0 +1,422 @@
+/*----------------------HEADER and Nav-------------------*/
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'open sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;  
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'open sans', sans-serif;
+}
+
+/*-------------------NAVIGATION SECTION--------------------*/
+
+nav  {
+    background: rgb(241, 239, 235);
+}
+
+
+.logo {
+    display: contents;
+    margin-left: 10PX;
+    margin-right: 10PX;
+    max-width: 1%
+}
+
+
+
+
+
+
+/*--------------HEADER SECTION--------------*/
+
+header {
+    background-image: url(../img/iplans5.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-position-y: -160px;
+}
+
+header p {
+    margin: 0;
+}
+
+.images-container {
+    text-align: center;
+    padding-top: 100px;
+    font-family: cursive;
+}
+
+ .btn-work, .btn-contact {
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 10px 25px;
+    display: inline-block;
+ }
+
+ .btn-work {
+    background-color: lightgoldenrodyellow;   
+    color: blue;
+    margin: 15px 10px;
+    border: 2px groove lightblue;
+}
+
+.btn-work:hover {
+    background-color: skyblue;
+    color: lightgoldenrodyellow;
+    transition: all 1s ease;
+    border: 2px groove lightgoldenrodyellow;
+}
+
+.btn-contact {
+    background-color: lightblue;
+    color: lightgoldenrodyellow;
+    border: 2px groove lightgoldenrodyellow;
+}
+
+.btn-contact:hover {
+    background-color: lightgoldenrodyellow;
+    color: lightblue; 
+    transition: 1s ease;
+    border: 2px groove lightblue;
+}
+
+/*------------------ABOUT US SECTION----------------*/
+
+.about-us {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-us:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-us h2 {
+    color: black; 
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-us h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: skyblue;
+}
+
+.about-us .col-left, .about-us .col-right {
+    width: 50%;
+    float: left;
+}
+
+.about-us .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-us a {
+    background-color: skyblue;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    display: inline-block;
+    border: 0.5px solid skyblue;
+    transition: all 1s ease;
+}
+
+.about-us a:hover {
+    background-color: aliceblue;
+    color: lightblue;
+}
+
+.about-us .col-left img {
+    max-width: 100%;
+} 
+
+/*---------------------ASSISTANCE SECTION----------------*/
+
+.assistance {
+    background-color: lightgrey;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.assistance h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.assistance h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: blue;
+}
+
+.assistance:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.assistance .assistance-left, .assistance .assistance-center, .assistance .assistance-right{
+    width: 33.3333333333%;
+    display: inline-block;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.assistance i {
+    font-size: 120px;
+    color: blue;
+}
+
+/*---------------------MY PROJECTS SECTION----------------*/
+
+.my-projects {
+    background-color: white;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.my-projects:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.my-projects h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    position: relative;
+}
+
+.my-projects h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: lightblue;
+}
+
+.my-projects .project1,
+.my-projects .project2,
+.my-projects .project3 {
+    height: 300px;
+    width: 30%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-projects .project1 {
+    margin-left: 2%;
+    margin-right: 1.5%;
+    background-image: url(../img/iplans3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.my-projects .project2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(../img/iplans2.jpg);
+    background-size: contain;
+     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.my-projects .project3 {
+    margin-left: 1.5%;
+    margin-right: 2%;
+    background-image: url(../img/iplans1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.my-projects .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 310px;
+}
+
+.overlay a {
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*---------------------CONTACT SECTION----------------*/
+
+.contact-section {
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    position: relative;
+}
+
+.contact-section h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: hotpink;
+}
+
+.contact-section:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.social-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.social-container i {
+    float: left;
+    margin-top: 17px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.col-1 p,
+.col-2 
+.col-3{
+    display: inline-block;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    width: 33.3333333333%;
+    display: inline-block;
+    float: left;
+}
+
+.col-3 p {
+    margin-bottom: 0px; 
+    margin-top: 7px;
+}
+
+.text-bold {
+    color: black;
+    font-weight: bold;
+}
+
+/*---------------------FOOTER SECTION----------------*/
+
+footer {
+    background-color: gray;
+    color: black;
+    padding: 20px 40px;
+}
+
+footer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-text {
+    float: left;
+}
+
+.footer-text i {
+    color: white;
+}
+
+.social {
+    float: right;
+    margin-top: 12px;
+}
+
+.social i{
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.social a:visited {
+    color: white;
+}
+
+.social i:hover{
+    color: black;
+    background-color: gray;
+    transition: all 0.5s ease;
+}
+
+.footer-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+

@@ -1,0 +1,65 @@
+
+
+#salle{
+    width: 800px;
+    height: 600px;
+    padding: 25px 30px;
+    background: url(second.jpg) top left no-repeat;
+    margin: 0 auto;
+}
+
+#formcom input[type=button], #formcom input[type=submit]{
+    padding: 0;
+    height: 21px;
+    cursor: pointer;
+    background: url(../img/op.jpg) top left no-repeat;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#formcom input[type=submit]:hover, #formcom input[type=submit]:hover{
+    background-position: bottom left;
+}
+
+#error{
+    position: relative;
+    border: solid 1px #eb5e66;
+    background: #fce8e9;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+#error img{
+    cursor: pointer;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+
+.error-message{
+    background: url(qatar.jpg) 10px center no-repeat;
+    padding: 0 0 0 30px;
+    display: inline;
+    color: #ff5b5b;
+}
+
+#contenu{
+    background: url(../img/op.jpg);
+    background-size: cover;
+    height: 800px;
+    font-family: sans-serif;
+}
+
+.hf h1, h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 700px;
+    color: lightgray;
+}
+
+#formcom{
+    position: relative;
+    left: 700px;
+}
